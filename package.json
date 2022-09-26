@@ -1,0 +1,27 @@
+{
+  "name": "biztech",
+  "version": "1.0.0",
+  "description": "Coupon code API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "lint": "eslint --fix ./*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2",
+    "optionator": "^0.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "prettier": "^2.7.1"
+  }
+}
