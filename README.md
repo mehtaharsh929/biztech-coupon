@@ -31,7 +31,8 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     $ cd biztech
     $ npm install
 
-
+## DB setup
+  Create .env file from .env.test and put your DB connection URL.
 
 ## Running the project
 1. npm i 
